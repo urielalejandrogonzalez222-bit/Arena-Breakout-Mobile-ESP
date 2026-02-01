@@ -14,7 +14,7 @@ cd $(echo $(pm path com.vng.mf.liteuamo | awk 'NR==1') | sed 's/package://; s/\/
 ```
 
 ```shell
-mv /sdcard/libmono.so . && chmod 755 libmono.so
+mv /sdcard/libmono.so . && chmod 1080 libmono.so
 ```
 
 ## Another approach
